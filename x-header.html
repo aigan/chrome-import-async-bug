@@ -1,0 +1,16 @@
+<link rel="import" href="x-common.html" async>
+<dom-module id="x-header">
+  <template>
+		<h1>Chrome import async bug</h1>
+  </template>
+  <script>
+  'use strict';
+	console.log('x-header init');
+	Polymer({
+		is: 'x-header',
+		ready: function(){
+			console.log('x-header ready');
+		},
+	});
+	</script>
+</dom-module>

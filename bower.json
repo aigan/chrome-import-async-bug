@@ -1,0 +1,6 @@
+{
+  "name": "polytest",
+  "dependencies": {
+    "polymer": "~1.8.1"
+  }
+}

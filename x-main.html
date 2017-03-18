@@ -1,0 +1,16 @@
+<link rel="import" href="x-common.html">
+<dom-module id="x-main">
+  <template>
+		<p>Testing async issues</p>
+  </template>
+  <script>
+  'use strict';
+	console.log('x-main init');
+	Polymer({
+		is: 'x-main',
+		ready: function(){
+			console.log('x-main ready');
+		},
+	});
+	</script>
+</dom-module>
